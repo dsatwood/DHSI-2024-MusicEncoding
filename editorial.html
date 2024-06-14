@@ -69,12 +69,12 @@
                     }
 
                     const originalHandler = function () {
-                        appXPath = [];
+                        appXPath = ["./rdg[@source='source1']"];
                         loadFile();
                     }
 
                     const contrafactumHandler = function () {
-                        appXPath = ["./rdg[@source='source1']"];
+                        appXPath = ["./rdg[@source='source2']"];
                         loadFile();
                     }
 
