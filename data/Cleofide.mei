@@ -49,6 +49,8 @@ Transcribed by Daniel Atwood</persName>
                      <rend xml:id="r1fo9q13">Transcribed by Daniel Atwood</rend>
                      <rend xml:id="r19aghi6" halign="center" valign="bottom">©</rend>
                   </pgFoot>
+                  <app>
+                    <lem source="#source1"> <!--delete-->
                   <staffGrp xml:id="s18x7uwq">
                      <staffGrp xml:id="s1h7o8lu">
                         <grpSym xml:id="gus6z59" symbol="bracketsq" />
@@ -96,6 +98,8 @@ Transcribed by Daniel Atwood</persName>
                         <keySig xml:id="k1o90oms" mode="major" sig="1s" />
                         <meterSig xml:id="m1ul8uda" count="2" unit="4" />
                      </staffDef>
+                    </lem>
+                    <rdg source="#source2">
                        <staffGrp xml:id="P6" bar.thru="true">
                           <grpSym xml:id="g1x3j1jx" symbol="brace" />
                           <label xml:id="lnr7hec">Lute Manuscript  III.ii.46a  Leipzig Stadtbibliothek</label>
@@ -112,29 +116,26 @@ Transcribed by Daniel Atwood</persName>
                              <meterSig xml:id="m18rptw9" count="2" unit="4" />
                           </staffDef>
                        </staffGrp>
+                    </rdg>
+                </app>
                   </staffGrp>
                  </scoreDef>
                <section xml:id="sy2ow5h">
                   <pb xml:id="p1chr3o9" />
                   <measure xml:id="m1g2ex0k" n="1">
-                    <app> 
-                    <rdg source="source1"> <!--delete-->
+
                         <staff xml:id="s1dnke0r" n="1"> 
                         <layer xml:id="lhv23yr" n="1">
                            <note xml:id="n15kdl1u" dur.ppq="48" dur="4" oct="4" pname="g" stem.dir="up" />
                            <note xml:id="n18mhn08" dur.ppq="48" dur="4" oct="5" pname="e" stem.dir="down" />
                         </layer>
                      </staff>
-                    </rdg> <!--delete-->
-                    <rdg source="source2"> <!--delete-->
                      <staff xml:id="s1h9c2zb" n="2">
                         <layer xml:id="la9rq2q" n="1">
                            <note xml:id="n1td9xfa" dur.ppq="48" dur="4" oct="4" pname="g" stem.dir="up" />
                            <note xml:id="nv5rnrg" dur.ppq="48" dur="4" oct="5" pname="e" stem.dir="down" />
                         </layer>
                      </staff>
-                    </rdg> <!--delete-->
-                </app>
                      <staff xml:id="spy9kts" n="3">
                         <layer xml:id="lw4gt9l" n="1">
                            <beam xml:id="b1ys0hu9">
